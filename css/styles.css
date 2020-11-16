@@ -30,6 +30,7 @@ body{
 
 .navbar-content a{
     color: white;
+    font-weight: bold;
        
 }
 .navbar-content {
@@ -64,19 +65,19 @@ body{
 }
 .navbar-icon{
     margin-left: 13.5%;
-    margin-top: 3%;
-    color: white;
+    margin-top: 2%;
+    color: white; 
    
 }
 .navbar-icon button{
-    height: 45px;
-    width: 150px;
-    background: orange;
-    border-style: none;
+    background-image: linear-gradient(to right , orange , gold);
     border-radius: 3px;
+    margin-top: 3px;
+    border: none;
     color: white;
-    font-size: small;
-    margin-bottom: 8%;
+    font-weight: bold;
+    width: 150px;
+    height: 45px; 
 }
 .trust{
     text-align: center;
@@ -111,14 +112,14 @@ body{
 }
 .trust-word button{
     height: 40px;
-    background: blue;
+    background-image: linear-gradient(to right, blue ,royalblue);
     font-weight: bold;
     color: white;
     border-style: none;
-    border-radius: 3%;
+    border-radius: 3px;
     font-size: small;
     width: 160px;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 .trust-word-images{
     margin-left: 22%;
@@ -135,16 +136,17 @@ body{
 .picture-word button{
     height: 40px;
     width: 160px;
-    background: blue;
+    background-image: linear-gradient(to right, blue , royalblue);
     font-weight: bold;
     color: white;
     border-style: none;
-    border-radius: 3%;
+    border-radius: 3px;
     font-size: small;
-    margin-top: 3%;
+    margin-top: 4%;
 }
 .picture-word p{
     font-size: 13px;
+    color: silver;
 }
 .box{
     background-image: url(../images/unnamed.jpg);
@@ -152,13 +154,12 @@ body{
     
 }
 .box-word{
-    margin-left: 9%;
-    margin-top: 9%;
+    margin-left: 10%;
+    margin-top: 5%;
     color: white;
 }
 .box-word p{
     font-size: 13px;
-    margin-top: 3%;
 }
 .box-word button{
     height: 40px;
@@ -171,7 +172,7 @@ body{
     margin-top: 5%;
 }
 .box-picture{
-    margin-left: 25%;
+    margin-left: 20%;
     margin-top: 5%;
 }
 .text-word{
@@ -196,25 +197,27 @@ body{
 }
 .text-images{
     display: flex;
-    margin-left: 7%;
+    margin-left: 10%;
     margin-top: 3%;
 }
 .text-words{
-    margin-left: 9%;
+    margin-left: 12%;
     margin-top: 7%;
 }
 .text-words p{
-    font-size: 13px;
+    font-size: 14px;
+    color: silver;
 }
 .text-words button{
     height: 40px;
-    width: 120px;
+    width: 140px;
     font-weight: bold;
     color: white;
     border-style: none;
-    border-radius: 3%;
+    border-radius: 3px;
     font-size: small;
-    background: navy;
+    background-image: linear-gradient(to right, blue , royalblue);
+    margin-top: 4%;
 }
 .courses{
     display: flex;
@@ -257,15 +260,15 @@ body{
     margin-left: 20%;
 }
 .people-word{
-    margin-top: 17%;
+    margin-top: 4%;
 }
 .people-word p{
-    font-size: 15px;
-    margin-top: 6%;
-    
+    font-size: 13px;
+    margin-top: 6%;   
 }
 .people-image{
-    margin-left: 10% ;
+    margin-left: -1% ;
+    margin-top: 2%;
 }
 .pricing-word{
     text-align: center;
@@ -323,9 +326,9 @@ body{
     font-weight: bolder;
     color: white;
     border-style: none;
-    border-radius: 3%;
+    border-radius: 3px;
     font-size: 10px;
-    background: orange;
+    background-image: linear-gradient(to right, orange , gold);
     margin-top: 9%;
 }
 .pricing-picture{
@@ -351,13 +354,13 @@ body{
 .features button{
     margin-left: 38%;
     height: 40px;
-    width: 150px;
+    width: 180px;
     font-weight: bolder;
     color: white;
     border-style: none;
     border-radius: 3%;
     font-size: 10px;
-    background: orange;
+    background-image: linear-gradient(to right, orange , gold);
 }
 .features-word{
     text-align: center;
@@ -395,6 +398,7 @@ body{
     font-size: small;
     margin: 0px;
 }
+
 .Latest{
     color: white;
     margin-top: 60px;
@@ -414,7 +418,6 @@ body{
     border:royalblue; 
     background: royalblue;
     text-align: center;
-    color: white;
     font-weight: 900;
     border-radius: 3%;
     
@@ -427,7 +430,7 @@ body{
     border-style: none;
     border-radius: 3%;
     font-size: 10px;
-    background: orange;
+    background-image: linear-gradient(to right, orange , gold);
 }
 .footer-contact span{
     margin: 6px;
